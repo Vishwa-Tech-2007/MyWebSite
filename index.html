@@ -2,37 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My First Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-      background-color: #f2f2f2;
-    }
-    h1 {
-      color: #333;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-    }
-    img {
-      margin-top: 20px;
-      width: 300px;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishwa S | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to My Website!</h1>
-  <p>This is a simple website created with HTML, CSS, and JavaScript.</p>
-  <button onclick="alert('Thanks for clicking!')">Click Me</button>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">Vishwa S</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <!-- Random Image from Picsum -->
-  <img src="https://picsum.photos/300/200" alt="Random Image">
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hello, I'm <span>Vishwa</span></h1>
+    <p>ECE Student | Aspiring Software Developer</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am currently pursuing my <b>B.E. in Electronics and Communication Engineering (ECE)</b>, 
+    1st year. I enjoy problem-solving and learning new technologies. 
+    I have hands-on experience with <b>Java, Python, and C++</b> 
+    and aspire to build a strong career in software development.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="cards">
+      <div class="card">Java (Certified by Cispro)</div>
+      <div class="card">Python (Practical Knowledge)</div>
+      <div class="card">C++ (Practical Knowledge)</div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <div class="cards">
+      <div class="card">
+        <p><b>Java Certificate</b></p>
+        <a href="cispro-java-certificate.pdf" class="btn" download>Download</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Currently working on academic and personal projects. Will be updated soon!</p>
+    <!-- Later you can add project cards here -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/YOUR-USERNAME" target="_blank">github.com/YOUR-USERNAME</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Vishwa S | Portfolio</p>
+  </footer>
 </body>
 </html>
